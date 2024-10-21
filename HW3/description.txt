@@ -1,0 +1,8 @@
+1.
+
+This C program reads two 3D matrices from binary files called "matrix1.bin" and "matrix2.bin." It checks if the files can be accessed, reads the dimensions of the matrices, and ensures they're compatible for element-wise multiplication. If everything checks out, it multiplies the matrices together and saves the result in a new file named "result.bin." The program includes error handling to manage file access issues and limits on matrix sizes. Finally, it lets you know the operation is complete by printing a success message.
+
+
+2.
+
+This C program counts the total number of lines in all text files within a specified directory and its subdirectories. It prompts the user to enter a directory path and then explores the directory recursively, checking each file it encounters. If it finds a text file, it counts the lines and adds them to a total. The program also handles errors, such as being unable to open files or directories. Finally, it displays the total line count from all the .txt files found.

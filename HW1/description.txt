@@ -1,0 +1,14 @@
+1) A straightforward game of "Rock, Paper, Scissors" is implemented by this script, in which the player faces off against a computer that chooses a move at random. The user is continually prompted for input via a loop, and the outcome—a win, loss, or tie—is determined by comparing the player's selection with the computer's. The script also counts the number of files and subdirectories, listing them if they are accessible, and checks if a directory has read or execute rights.
+
+
+2) This Bash script checks if a given name is a directory or file and displays relevant information. If it's a directory, it counts the number of subdirectories and files, checks permissions, and lists the directory contents. If it's a file, it displays line, word, and character counts, checks for read permissions, and classifies the file size based on character count.
+
+3) This Bash script creates a backup of three or more specified files by copying them to a new backup directory named with the current date. If a file does not exist, it notifies the user without stopping the process. After copying, it renames the files by appending the current date and logs the actions taken in a backup log file.
+
+
+
+4) This Bash script prompts the user for a directory name and checks if it exists, creating it if it doesn't. It then lists the contents of the directory and allows the user to specify a file or directory name; if a file is provided, the script displays its contents ten lines at a time while prompting the user to continue. If a directory is specified, the script searches for files modified in the last 24 hours, presents them for selection, and allows the user to view the selected file in increments of ten lines, repeating the prompt until the user decides to stop or reaches the end of the file.
+
+
+
+

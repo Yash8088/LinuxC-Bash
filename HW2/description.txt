@@ -1,0 +1,19 @@
+1.
+
+This Bash script searches through a dictionary for specific patterns of letters. It checks for lines that contain at least three non-consecutive 'a's, counts the occurrences, and prints the total. Additionally, it searches for lines where 'e' is followed by other characters three times, counts these as well, and finally extracts and analyzes words containing exactly two 'e's, sorting and identifying the three most common patterns found at the end of words.
+
+
+2.
+This Bash script analyzes a given C source file to check how frequently the scanf and printf functions are used. It first verifies if the correct number of arguments is passed (1 file) and checks if the file exists. It then counts the total number of lines in the file and logs all lines containing scanf and printf into separate log files (scanf_log.txt and printf_log.txt). The script calculates and displays the count and percentage of lines that contain each function (scanf and printf) relative to the total lines in the file.
+
+
+
+3.
+This Bash script recursively traverses a directory structure, starting from a specified directory, to find all .txt files and extract email addresses. The script first checks if the provided argument is a directory and skips any empty directories. For each text file it finds, it uses grep to search for email addresses using a regular expression and appends them to a file named unique_emails.txt. After traversing the entire directory, the script removes duplicate email addresses by sorting the file and keeping only unique entries.
+
+
+
+4.
+This Bash script processes a file containing personal information formatted as "FirstName LastName, YYYY-MM-DD, City, Country." It first checks if the specified file exists, exiting with an error message if it does not. Using sed, it extracts names, dates of birth, and cities from the file, filtering to include only those with multi-word city names. For each valid entry, it calculates the age based on the current year (2024) and prints the name along with the corresponding age. Finally, the output is sorted in descending order by age.
+
+
