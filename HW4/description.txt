@@ -1,0 +1,20 @@
+1)
+
+
+In this program, I implemented radix sort to sort an array of unsigned integers using bitwise operations. The program starts by prompting me to enter the number of elements I want to sort, and then I input each integer. In the radix_sort function, I use two temporary buckets (bucket0 and bucket1) to separate numbers based on each bit, starting from the least significant to the most significant bit of a 32-bit integer. For each bit position, I check if the bit is 0 or 1, placing the numbers into bucket0 or bucket1 accordingly. After organizing the numbers based on the current bit, I combine the buckets back into the main array. Finally, the program prints both the original and sorted arrays, giving me a clear view of how the array has been sorted.
+
+
+2)
+
+
+In this program, I extended radix sort to handle floating-point numbers by first separating the array into positive and negative numbers. In real_radix_sort, I treat the underlying bit representation of floats as unsigned integers, allowing me to apply bitwise manipulation to sort them. I create two arrays, positive and negative, where I store the positive values as-is, while the negative values are bitwise inverted to facilitate sorting. I then apply radix sort separately to both the positive and negative arrays. After sorting, I restore the negative numbers to their original form, reassemble the sorted elements back into the main array, and print both the original and sorted arrays for comparison. This approach allows radix sorting on floats, even though they’re not natively handled by the traditional integer-based radix sort algorithm.
+
+
+
+
+
+
+
+
+
+
